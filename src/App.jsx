@@ -1,11 +1,12 @@
 import './App.css'
-import Navbar from './components/navbar'
+import Secondsection from './components/secondsection'
+import Thirdsection from './components/thirdsection'
 
 function App() {
 
   return (
     <>
-      <Navbar />
+      <Thirdsection />
     </>
   )
 }

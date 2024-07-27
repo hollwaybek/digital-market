@@ -1,26 +1,26 @@
 import i18n from 'i18next';
 import { initReactI18next } from 'react-i18next';
 
-import translationUZ from './locales/uz/translation.json';
-import translationRU from './locales/ru/translation.json';
+import translationUZ from '../lang/uz.json';
+import translationRU from '../lang/ru.json';
 
 const resources = {
   uz: {
-    translation: translationEN
+    translation: translationUZ
   },
   ru: {
-    translation: translationES
+    translation: translationRU
   }
 };
 
 i18n
-  .use(initReactI18next) // Passes i18n instance to react-i18next
+  .use(initReactI18next) 
   .init({
     resources,
     fallbackLng: 'uz',
     debug: true,
     interpolation: {
-      escapeValue: false // React already escapes values
+      escapeValue: false 
     }
   });
 

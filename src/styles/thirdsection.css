@@ -1,0 +1,25 @@
+.thirdsection {
+    display: flex;
+    justify-content: center;
+}
+
+.thirdtheme{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 70px;
+}
+
+.fourTitle {
+    font-family: Inter;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 48px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: white;
+    padding: 17px 55px 19px 54px;
+    background-color: #65e700;
+    border-radius: 100px;
+    text-align: center;
+}

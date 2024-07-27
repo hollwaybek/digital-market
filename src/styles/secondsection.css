@@ -1,0 +1,78 @@
+.second-section {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 88px;
+}
+
+.largeBox {
+    display: flex;
+    gap: 100px;
+}
+
+.threeBigBox {
+    width: 496.08px;
+    height: 573px;
+}
+
+.threeBigBoxTwo{
+    width: 563px;
+    padding-top: 40px;
+}
+
+.threeTitleBox {
+    padding: 15px 36px 28px 10px;
+    background-color: #65e700;
+    border-radius: 100px;
+    margin-bottom: 20px;
+}
+
+.threeTitle {
+    font-family: Inter;
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 44px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: white;
+    margin: 0 ;
+}
+
+.threeText {
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0.01em;
+    text-align: left;
+    margin-bottom: 30px;
+}
+
+.threeTextTwo {
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0.01em;
+    text-align: left;
+    margin-bottom: 55px;
+}
+
+.threeButtonBox {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.threeButton {
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: left;
+    padding: 23px 39px 25px 35px;
+    border-radius: 100px;
+    background-color: #00cbff !important;
+    color: white !important;
+}
