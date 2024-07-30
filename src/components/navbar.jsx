@@ -40,7 +40,7 @@ const Navbar = () => {
 
             </div>
             <section className="header-section">
-                <div className="section-left">
+                <div className="section-left" >
                     <div className="header_texts">
                         <h1 className="title">{t('header_h1')}</h1>
                         <h1 className="text">{t('header_h3')}</h1>

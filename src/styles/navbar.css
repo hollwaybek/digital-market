@@ -56,8 +56,12 @@
     padding-top: 192px;
     margin-bottom: 28px;
     padding-bottom: 42px;
+
+}
+
+.section-left{
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: 100% 100%;
     background-image: url(public/assets/bg/bg-header.png);
 }
 

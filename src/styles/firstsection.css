@@ -75,6 +75,10 @@
     height: 287px;
 }
 
+.swiper-slide-next{
+    width: 255px;
+    height: 287px;
+}
 
 .swiper {
     width: 100%;
@@ -113,3 +117,4 @@ text-align: left;
 .card-text{
     padding: 15px 0 0 10px;
 }
+

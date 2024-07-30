@@ -9,6 +9,11 @@ import 'swiper/css/navigation';
 
 const FirstSection = () => {
     const { t } = useTranslation();
+    const slideStyle = {
+        width: '255px',
+        height: '287px',
+        marginRight: '30px'
+      };
 
     return (
         <div id='services' className='first__section'>
@@ -29,7 +34,7 @@ const FirstSection = () => {
                     modules={[Pagination, Navigation]}
                     className="mySwiper"
                 >
-                    <SwiperSlide id='SwiperSlide'>
+                    <SwiperSlide id='SwiperSlide' style={slideStyle}>
                         <div className="incard">
                             <img className='card_img' src="public/assets/img/first.png" alt="" />
                             <div className="card-text"><p className="card-subtitle"> <b className="card-title">{t('firstcard-title')}</b>{t('firstcard-subtitle')}</p></div>
